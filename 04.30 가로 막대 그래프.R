@@ -1,4 +1,3 @@
-library(ggplot2)
 setwd("C:\\Rworks")
 murder <- read.csv(file = "murder.csv", fileEncoding = "CP949", encoding = "UTF-8")
 murder_data <- murder[2:10, 3:9]
